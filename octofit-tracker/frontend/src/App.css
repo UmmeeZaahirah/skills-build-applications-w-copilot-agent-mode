@@ -1,0 +1,190 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8f9fa 100%);
+  min-height: 100vh;
+  color: #22223b;
+  background-color: #e3f0ff;
+  background-image: linear-gradient(120deg, #e3f0ff 0%, #f8f9fa 100%, #bde0fe 100%);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(90deg, #0d6efd 0%, #48cae4 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link, a, .navbar-brand, .nav-link {
+  color: #0d6efd !important;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+.App-link:hover, a:hover, .navbar-brand:hover, .nav-link:hover {
+  color: #ffd166 !important;
+  text-decoration: underline;
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #0d6efd 0%, #48cae4 100%) !important;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+  border-bottom: 4px solid #ffd166;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.octofit-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.12);
+}
+.nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.nav-link.active, .nav-link:focus {
+  color: #ffd166 !important;
+  background: #0d6efd22;
+}
+
+
+h1, h2, h3, h4, h5, h6, .card-title {
+  color: #0d6efd;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 0 #bde0fe, 2px 2px 0 #fff;
+}
+
+/* Table Styling */
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.06);
+}
+.table-primary th {
+  background: linear-gradient(90deg, #0d6efd 0%, #48cae4 100%);
+  color: #fff;
+}
+.table-hover tbody tr:hover {
+  background: #bde0fe33;
+}
+
+/* Button Styling */
+.btn-primary, .btn-primary:focus {
+  background: linear-gradient(90deg, #0d6efd 0%, #48cae4 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.10);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover {
+  background: #ffd166;
+  color: #0d6efd;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(13,110,253,0.10);
+  border: 1px solid #bde0fe;
+}
+.card-title {
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 1rem;
+  border: 2px solid #0d6efd;
+}
+.modal-header {
+  background: linear-gradient(90deg, #0d6efd 0%, #48cae4 100%);
+  color: #fff;
+  border-bottom: 2px solid #ffd166;
+}
+.modal-footer {
+  border-top: 2px solid #ffd166;
+}
+
+/* Form Styling */
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem #bde0fe55;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.06);
+}
+.table th {
+  background: #0d6efd !important;
+  color: #fff !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f0ff;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #f8f9fa;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #0d6efd 0%, #48cae4 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #48cae4 0%, #0d6efd 100%);
+  color: #fff;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(13,110,253,0.10);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
